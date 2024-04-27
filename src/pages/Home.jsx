@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='w-full bg-lightGray'>
         <Header/>
-        <div className="flex justify-between w-full p-2 md:p-7 md:space-x-12">
+        <div className="flex justify-between w-full p-2 md:p-7 md:space-x-12 md:relative">
           <Sidebar/>
           <PlanTrip/>
         </div>

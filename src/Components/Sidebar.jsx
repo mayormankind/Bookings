@@ -13,7 +13,7 @@ export default function Sidebar() {
     {label:'Vacation Packages'},
   ]
   return (
-    <div className='hidden bg-white space-y-10 p-5 w-1/6 font-medium md:block'>
+    <div className='hidden bg-white space-y-10 p-5 w-1/6 font-medium h-full md:flex flex-col'>
       <div className='flex flex-col'>
         {Bars.map((bar,id)=>(
           <div className="flex space-x-2 text-xs p-3 hover:bg-lightGray" key={id}>

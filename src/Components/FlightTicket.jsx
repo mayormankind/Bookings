@@ -23,7 +23,7 @@ export default function FlightTicket() {
                         </div>
                     </div>
                 </div>
-                <div className="flex w-full justify-between">
+                <div className="flex w-full justify-between md:w-fit md:justify-around md:gap-5">
                     <div className="text-right gap-5">
                         <h2 className="text-xl font-bold">08:35</h2>
                         <span className="text-darkGray font-semibold text-xs">Sun, 20 Aug</span>

@@ -65,7 +65,7 @@ export default function FlightTicket() {
                         </div>
                     </div>
                 </div><hr />
-                <div className="flex items-align justify-between">
+                <div className="flex items-align text-xs justify-between">
                     <div className="flex items-align space-x-5">
                         <a href="#" className="text-faintBlue font-semibold text-xs md:text-sm">Hotel details</a>
                         <a href="#" className="text-faintBlue font-semibold text-xs md:text-sm">Price details</a>
